@@ -20,10 +20,10 @@ export default function Navigation() {
                 Témoignages
               </a>
               <a
-                href="#download"
+                href="#contact"
                 className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all"
               >
-                Download Free
+                Demander un démo
               </a>
             </div>
             <button className="md:hidden text-gray-700">

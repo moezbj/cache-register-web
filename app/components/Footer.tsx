@@ -135,7 +135,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
 
 
         return (
-            <footer className="bg-gradient-to-br from-gray-900 to-purple-900 text-white">
+            <footer id="contact" className="bg-gradient-to-br from-gray-900 to-purple-900 text-white">
                 {/* Main Footer Content */}
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div className="grid md:grid-cols-4 gap-8">
@@ -389,7 +389,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
                                     Politique de confidentialité
                                 </a>
                                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                                    Conditions d&apos;utilisation
+                                    Conditions d`&apos;`utilisation
                                 </a>
                                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
                                     Support

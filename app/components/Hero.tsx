@@ -20,10 +20,10 @@ export default function Hero() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="#download"
+                  href="#contact"
                   className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all glow"
                 >
-                  Télécharger gratuitement
+                  demander un démo
                 </a>
                 <a
                   href="#features"
