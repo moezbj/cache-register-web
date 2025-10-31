@@ -389,7 +389,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
                                     Politique de confidentialité
                                 </a>
                                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                                    Conditions d'utilisation
+                                    Conditions d&apos;utilisation
                                 </a>
                                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
                                     Support
