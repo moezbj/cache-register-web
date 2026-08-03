@@ -71,6 +71,13 @@ export const POST = async (req: NextRequest) => {
   if (!body || !body.name || !body.email || !body.message) {
     NextResponse.json({ error: "Bad request" }, { status: 400 });
   }
+transporter.verify((err, success) => {
+  console.log({
+    mailOptions,
+    success,
+    err,
+  });
+});
   const sendMailPromise = () =>
     new Promise<string>((resolve, reject) => {
       transporter.sendMail(
@@ -97,6 +104,7 @@ export const POST = async (req: NextRequest) => {
     await sendMailPromise();
     return NextResponse.json({ message: "Email sent" });
   } catch (err: unknown) {
+    console.log('err', err)
     const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred';
     return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
